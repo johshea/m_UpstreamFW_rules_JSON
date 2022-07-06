@@ -6,3 +6,6 @@ convert the data into a Json record
 
 Usage python(3) convert.py
 
+To get your Firewall CSV, you simply need to go to your meraki dashboard and select Help->Firewall Info. Once the page loads
+select the download button. Once the file is downloaded place it in the same directory as the script and rename it to m_firewallrules.csv, and run the script.
+
