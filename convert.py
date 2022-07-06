@@ -12,7 +12,7 @@ import json
 
 #name of the files to import and export
 csvfile = open('m_firewallrules.csv', 'r')
-jsonfile = open('file.json', 'w')
+jsonfile = open('m_fw_rules.json', 'w')
 
 reader = csv.reader( csvfile, delimiter=',')
 #create an empty data set
